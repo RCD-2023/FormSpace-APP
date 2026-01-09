@@ -1,7 +1,7 @@
 <x-layout>
     <x-slot name="title">Main Form | Create entries</x-slot>
     <h1 class="text-3xl">Main Form Page</h1>
-    <h2>Adauga noi intrari</h2>
+
     <div class="bg-white mx-auto p-8 rounded-lg shadow-md w-full md:max-w-3xl">
         <h2 class="text-4xl text-center font-bold mb-4">
             Vendor Data Form

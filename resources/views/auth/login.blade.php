@@ -11,10 +11,22 @@
                 class="w-full bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded focus:outline-none">
                 Login
             </button>
-            <p class="mt-4 text-gray-500">
-                Don't have an account?
-                <a class="text-blue-900 underline" href="#">Contact the admin</a>
-            </p>
+            <div class="mt-4 text-gray-500 space-y-2">
+                <p>
+                    Don't have an account?
+                </p>
+                <p class="text-gray-700">Contact the admin at:
+                    <a class="text-blue-900 underline" href="mailto:codreanu_danielromeo@yahoo.com">
+                        <span class="font-medium">codreanu_danielromeo@yahoo.com</span>
+                    </a>
+                </p>
+                <p class="text-gray-700">Or get back to:
+                    <a href="{{ url('/') }}"
+                        class="inline-block font-semibold bg-green-200 py-0.5 px-1 rounded transition-all transform duration-300 ease-in-out hover:bg-green-300 hover:scale-105 ">
+                        Homepage
+                    </a>
+                </p>
+            </div>
         </form>
     </div>
 

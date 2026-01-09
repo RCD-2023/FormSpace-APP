@@ -1,3 +1,5 @@
+{{-- This file can be seen be admin only--}}
+
 <x-layout>
     <div class="bg-white rounded-lg shadow-md w-full md:max-w-xl mx-auto mt-12 p-8 py-12">
         <h2 class="text-4xl text-center font-bold mb-4">Register</h2>
