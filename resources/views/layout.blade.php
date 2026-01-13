@@ -13,9 +13,9 @@
 
 </head>
 
-<body class="flex flex-col min-h-screen bg-gray-100 justify-between">
+<body class="flex flex-col min-h-screen bg-gray-100">
     <x-header />
-    <main class="container mx-auto p-4 mt-4">
+    <main class="container mx-auto flex-grow p-4 mt-4">
         {{-- Display alert message --}}
         @if (session('success'))
             <x-alert id="success-alert" duration="1000" type="success" message="{{ session('success') }}" />
